@@ -1,0 +1,23 @@
+@import '_vars.scss';
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Raleway', system-ui, Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: $bg;
+  color: $text;
+}
+
+.container {
+  position: relative;
+  max-width: 1920px;
+  padding: 0 170px;
+  margin: 0 auto;
+  overflow: hidden;
+}

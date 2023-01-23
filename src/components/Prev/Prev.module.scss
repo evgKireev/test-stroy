@@ -1,0 +1,156 @@
+.title {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 38px;
+  line-height: 52px;
+  color: #363636;
+  margin-bottom: 78px;
+}
+
+.inner {
+  display: flex;
+  align-items: flex-start;
+  gap: 78px;
+  margin-bottom: 199px;
+}
+
+.innerPhoto {
+  display: flex;
+  gap: 21px;
+  height: 435px;
+  margin-bottom: 54px;
+}
+
+.smollImg {
+  height: 433px;
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  direction: rtl;
+
+  img {
+    margin-bottom: 21px;
+    width: 134px;
+    height: 93;
+    cursor: pointer;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.smollImg::-webkit-scrollbar {
+  width: 5px;
+  background-color: #fff;
+}
+
+.smollImg::-webkit-scrollbar-thumb {
+  background-color: #319f1c;
+  border-radius: 9em;
+  box-shadow: inset 1px 1px 10px #319f1c;
+}
+
+.bigImg {
+  width: 671px;
+  height: 435px;
+}
+.descInner {
+  display: flex;
+  align-items: center;
+  gap: 120px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 129px;
+  li {
+    margin-bottom: 30px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  border: 1px solid #319f1c;
+  border-radius: 3px;
+  width: 239px;
+  height: 81px;
+  gap: 16px;
+  margin-bottom: 54px;
+  span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 34px;
+
+    color: #319f1c;
+  }
+}
+
+.barIcon {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  right: 0;
+  top: 280px;
+  z-index: 1;
+}
+
+.itemBar {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 87px;
+  height: 64px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 3px 0px 0px 3px;
+}
+.prevBottom {
+  display: flex;
+  gap: 400px;
+}
+
+.sTitle {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  color: #363636;
+  margin-bottom: 31px;
+}
+
+.formInner {
+  width: 506px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.descripsh {
+  max-width: 604px;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.desing1 {
+  position: absolute;
+  top: 1150px;
+  z-index: -99999;
+  left: 0;
+}
+
+.desing2 {
+  position: absolute;
+  top: 1220px;
+  right: 0;
+}
